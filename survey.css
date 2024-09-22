@@ -1,0 +1,38 @@
+body
+{
+  width:auto;
+  height:100;
+  background-color:#CBC3E3;
+  background-image:url(https://img.freepik.com/premium-photo/stripe-2-5-purple-6-liquid-groovy-background-illustration-wallpaper-texture_792836-5024.jpg?w=996)
+
+}
+h1, p{
+  text-align:center;
+  font-family: impact;
+}
+
+
+fieldset
+{
+  height:100vh;
+  background-color:#CF9FF2;
+  width:60px;
+  margin: 0 auto 0 auto;
+  padding:0 0 95px;
+}
+form {
+  width: 60vw;
+  max-width: 400px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+label{
+  display:block;
+}
+input[type="radio"]{
+  display:block;
+}
+input[type="checkbox"]{
+  display:block;
+}

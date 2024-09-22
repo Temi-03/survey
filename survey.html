@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link href="survey.css">
+</head>
+<body>
+    <h1 id="title">Temi's Coding Journey</h1>
+    <p id="description">Help Temi improve as she embarks on her coding journey</p>
+<fieldset>
+    <form id="survey-form">
+        <!-- Name Input -->
+        <label id="name-label" for="name">
+            Name
+            <input id="name" type="text" required placeholder="Enter your name" />
+        </label>
+
+        <!-- Email Input -->
+        <label id="email-label" for="email">
+            Email
+            <input id="email" type="email" required placeholder="Enter your email" />
+        </label>
+
+        <!-- Number Input -->
+        <label id="number-label" for="number">
+            Number
+            <input id="number" type="number" min="0" max="100" placeholder="Age" />
+        </label>
+
+        <!-- Dropdown (Where did you find the page?) -->
+        <label id="find-label" for="dropdown">
+            Where did you find my page?
+            <select id="dropdown">
+                <option value="" disabled selected>Select one</option>
+                <option value="linkedin">LinkedIn</option>
+                <option value="github">GitHub</option>
+                <option value="college">College</option>
+                <option value="word-of-mouth">Word of Mouth</option>
+            </select>
+        </label>
+
+        <!-- Radio Button (What did you think of my work?) -->
+        <label id="like-label" for="like">
+            What did you think of my work?
+        </label>
+        <input id="like" type="radio" name="feedback" value="like" />
+        Like
+        <input id="neutral" type="radio" name="feedback" value="neutral" />
+        Neutral
+        <input id="dislike" type="radio" name="feedback" value="dislike" />
+        Dislike
+        <label id="check-label" for="check">what areas do you think i could improve on 
+          <input type="checkbox" id="check" value="css"/>css
+       
+        <input type="checkbox" id="check" value="javascript"/>javascript
+        <input type="checkbox" id="check" value="java"/>java
+        <input type="checkbox" id="check" value="html"/>html
+          </label>
+         <label id ="feedback-label" for="feedback"> any additional feedback appricated
+            <textarea id="feedback"></textarea>
+            </label>
+            <label id="submit-label" for="submit">
+              <input id="submit" type="submit"/>
+            </label>
+    </form>
+    </fieldset>
+</body>
+</html>
